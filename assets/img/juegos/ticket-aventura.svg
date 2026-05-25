@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Ticket Aventura">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d8f3dc"/>
+      <stop offset="100%" stop-color="#b7e4c7"/>
+    </linearGradient>
+    <linearGradient id="ticket" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f8f8f8"/>
+    </linearGradient>
+    <linearGradient id="path" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2d6a4f"/>
+      <stop offset="100%" stop-color="#52b788"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  <rect width="640" height="360" fill="url(#sky)"/>
+  <circle cx="520" cy="80" r="45" fill="#e9c46a" opacity="0.2"/>
+  <circle cx="520" cy="80" r="30" fill="#e9c46a" opacity="0.3"/>
+  <circle cx="100" cy="70" r="3" fill="#2d6a4f" opacity="0.15"/>
+  <circle cx="200" cy="50" r="2" fill="#2d6a4f" opacity="0.12"/>
+  <circle cx="380" cy="45" r="2" fill="#2d6a4f" opacity="0.1"/>
+  <path d="M50 260c80-60 180-80 270-40s160 40 270-20" fill="none" stroke="url(#path)" stroke-width="6" stroke-linecap="round" opacity="0.3"/>
+  <path d="M50 260c80-80 180-100 270-50s160 30 270-40" fill="none" stroke="url(#path)" stroke-width="4" stroke-linecap="round" stroke-dasharray="8 12" opacity="0.2"/>
+  <rect x="200" y="80" width="240" height="130" rx="20" fill="url(#ticket)" filter="url(#shadow)"/>
+  <rect x="200" y="80" width="240" height="130" rx="20" fill="none" stroke="#2d6a4f" stroke-width="2" opacity="0.15"/>
+  <line x1="260" y1="80" x2="260" y2="210" stroke="#2d6a4f" stroke-width="1" stroke-dasharray="4 3" opacity="0.2"/>
+  <circle cx="280" cy="140" r="22" fill="#e76f51" opacity="0.85"/>
+  <circle cx="280" cy="136" r="10" fill="white" opacity="0.2"/>
+  <circle cx="370" cy="140" r="22" fill="#52b788" opacity="0.85"/>
+  <circle cx="370" cy="136" r="10" fill="white" opacity="0.2"/>
+  <path d="M302 140h46" stroke="#e9c46a" stroke-width="3" stroke-dasharray="4 3" opacity="0.6"/>
+  <path d="M50 270c100-70 200-90 300-50s160 30 270-30" fill="none" stroke="url(#path)" stroke-width="8" stroke-linecap="round" opacity="0.6"/>
+  <style>text { font-family: 'Inter', Arial, sans-serif; }</style>
+  <text x="320" y="296" text-anchor="middle" font-size="24" font-weight="800" fill="#1b4332" letter-spacing="0.02em">Ticket Aventura</text>
+</svg>

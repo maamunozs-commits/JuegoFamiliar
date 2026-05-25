@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Fiesta de Dados">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#d8f3dc"/>
+      <stop offset="100%" stop-color="#b7e4c7"/>
+    </linearGradient>
+    <linearGradient id="dice1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f5f5f5"/>
+    </linearGradient>
+    <linearGradient id="dice2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f0faf2"/>
+    </linearGradient>
+    <filter id="shadow" x="-15%" y="-15%" width="130%" height="145%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+  <rect width="640" height="360" fill="url(#bg)"/>
+  <circle cx="150" cy="60" r="20" fill="#e9c46a" opacity="0.15"/>
+  <circle cx="500" cy="280" r="25" fill="#e76f51" opacity="0.08"/>
+  <circle cx="480" cy="70" r="15" fill="#2d6a4f" opacity="0.08"/>
+  <circle cx="100" cy="280" r="10" fill="#f4a261" opacity="0.15"/>
+  <rect x="155" y="80" width="130" height="130" rx="24" fill="url(#dice1)" filter="url(#shadow)" transform="rotate(-8 220 145)"/>
+  <rect x="155" y="80" width="130" height="130" rx="24" fill="none" stroke="#e76f51" stroke-width="2.5" opacity="0.3" transform="rotate(-8 220 145)"/>
+  <rect x="340" y="95" width="130" height="130" rx="24" fill="url(#dice2)" filter="url(#shadow)" transform="rotate(6 405 160)"/>
+  <rect x="340" y="95" width="130" height="130" rx="24" fill="none" stroke="#2d6a4f" stroke-width="2.5" opacity="0.3" transform="rotate(6 405 160)"/>
+  <circle cx="200" cy="128" r="10" fill="#1b2d2a"/>
+  <circle cx="240" cy="168" r="10" fill="#1b2d2a"/>
+  <circle cx="385" cy="125" r="10" fill="#1b2d2a"/>
+  <circle cx="405" cy="155" r="10" fill="#1b2d2a"/>
+  <circle cx="425" cy="185" r="10" fill="#1b2d2a"/>
+  <rect x="190" y="250" width="260" height="8" rx="4" fill="#2d6a4f" opacity="0.08"/>
+  <rect x="190" y="265" width="260" height="8" rx="4" fill="#e76f51" opacity="0.06"/>
+  <style>text { font-family: 'Inter', Arial, sans-serif'; }</style>
+  <text x="320" y="306" text-anchor="middle" font-size="24" font-weight="800" fill="#1b4332" letter-spacing="0.02em">Fiesta de Dados</text>
+</svg>

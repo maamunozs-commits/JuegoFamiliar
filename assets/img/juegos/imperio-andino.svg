@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Imperio Andino">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d8f3dc"/>
+      <stop offset="60%" stop-color="#c3e6cb"/>
+      <stop offset="100%" stop-color="#b7e4c7"/>
+    </linearGradient>
+    <linearGradient id="mt1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#52b788"/>
+      <stop offset="100%" stop-color="#2d6a4f"/>
+    </linearGradient>
+    <linearGradient id="mt2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e76f51"/>
+      <stop offset="100%" stop-color="#c1553d"/>
+    </linearGradient>
+    <linearGradient id="sun" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e9c46a"/>
+      <stop offset="100%" stop-color="#f4a261"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  <rect width="640" height="360" fill="url(#bg)"/>
+  <circle cx="520" cy="70" r="40" fill="url(#sun)"/>
+  <circle cx="520" cy="70" r="30" fill="#e9c46a" opacity="0.5"/>
+  <line x1="520" y1="20" x2="520" y2="35" stroke="#e9c46a" stroke-width="3" opacity="0.4"/>
+  <line x1="520" y1="105" x2="520" y2="90" stroke="#e9c46a" stroke-width="3" opacity="0.4"/>
+  <line x1="470" y1="70" x2="485" y2="70" stroke="#e9c46a" stroke-width="3" opacity="0.4"/>
+  <line x1="555" y1="70" x2="570" y2="70" stroke="#e9c46a" stroke-width="3" opacity="0.4"/>
+  <path d="M0 360 L0 220 L80 140 L160 220 L240 120 L320 200 L400 100 L480 180 L560 80 L640 160 L640 360Z" fill="url(#mt1)" opacity="0.6"/>
+  <path d="M80 140 L80 180 L100 190" fill="white" opacity="0.1"/>
+  <path d="M240 120 L240 170 L260 165" fill="white" opacity="0.1"/>
+  <path d="M400 100 L400 150 L420 140" fill="white" opacity="0.1"/>
+  <path d="M560 80 L560 130 L580 115" fill="white" opacity="0.1"/>
+  <path d="M0 360 L0 260 L120 180 L220 250 L320 160 L420 230 L520 140 L640 200 L640 360Z" fill="url(#mt2)" opacity="0.4"/>
+  <path d="M0 360 L0 280 L100 220 L200 280 L320 200 L440 270 L560 190 L640 240 L640 360Z" fill="#1b4332" opacity="0.2"/>
+  <style>text { font-family: 'Inter', Arial, sans-serif'; }</style>
+  <text x="320" y="330" text-anchor="middle" font-size="24" font-weight="800" fill="#1b4332" letter-spacing="0.02em">Imperio Andino</text>
+</svg>

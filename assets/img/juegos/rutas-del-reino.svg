@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Rutas del Reino">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fef9ef"/>
+      <stop offset="100%" stop-color="#f7ecda"/>
+    </linearGradient>
+    <linearGradient id="path" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2d6a4f"/>
+      <stop offset="50%" stop-color="#52b788"/>
+      <stop offset="100%" stop-color="#2d6a4f"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="3" stdDeviation="5" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  <rect width="640" height="360" fill="url(#bg)"/>
+  <circle cx="80" cy="280" r="40" fill="#2d6a4f" opacity="0.04"/>
+  <circle cx="560" cy="80" r="35" fill="#e76f51" opacity="0.05"/>
+  <path d="M60 210 L160 210 L230 150 L340 150 L420 100 L560 100" fill="none" stroke="url(#path)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" filter="url(#shadow)"/>
+  <path d="M60 210 L160 210 L230 150 L340 150 L420 100 L560 100" fill="none" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0 30" opacity="0.3"/>
+  <rect x="35" y="192" width="50" height="50" rx="12" fill="#e76f51" filter="url(#shadow)"/>
+  <rect x="35" y="192" width="50" height="16" rx="12" fill="white" opacity="0.2"/>
+  <rect x="171" y="192" width="50" height="50" rx="12" fill="#2d6a4f" filter="url(#shadow)"/>
+  <rect x="171" y="192" width="50" height="16" rx="12" fill="white" opacity="0.2"/>
+  <rect x="298" y="132" width="50" height="50" rx="12" fill="#e9c46a" filter="url(#shadow)"/>
+  <rect x="298" y="132" width="50" height="16" rx="12" fill="white" opacity="0.2"/>
+  <rect x="505" y="81" width="50" height="50" rx="12" fill="#52b788" filter="url(#shadow)"/>
+  <rect x="505" y="81" width="50" height="16" rx="12" fill="white" opacity="0.2"/>
+  <circle cx="110" cy="195" r="6" fill="#e9c46a" opacity="0.5"/>
+  <circle cx="400" cy="133" r="6" fill="#e76f51" opacity="0.5"/>
+  <style>text { font-family: 'Inter', Arial, sans-serif'; }</style>
+  <text x="320" y="306" text-anchor="middle" font-size="24" font-weight="800" fill="#1b4332" letter-spacing="0.02em">Rutas del Reino</text>
+</svg>

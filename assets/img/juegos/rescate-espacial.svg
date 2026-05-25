@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Rescate Espacial">
+  <defs>
+    <linearGradient id="space" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a1628"/>
+      <stop offset="100%" stop-color="#132a43"/>
+    </linearGradient>
+    <linearGradient id="ship" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#e0e0e0"/>
+    </linearGradient>
+    <linearGradient id="flame" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e9c46a"/>
+      <stop offset="50%" stop-color="#f4a261"/>
+      <stop offset="100%" stop-color="#e76f51"/>
+    </linearGradient>
+    <linearGradient id="window" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#52b788"/>
+      <stop offset="100%" stop-color="#2d6a4f"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="starGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="640" height="360" fill="url(#space)"/>
+  <circle cx="80" cy="50" r="2" fill="white" opacity="0.6" filter="url(#starGlow)"/>
+  <circle cx="180" cy="30" r="1.5" fill="white" opacity="0.5"/>
+  <circle cx="300" cy="60" r="2" fill="white" opacity="0.7" filter="url(#starGlow)"/>
+  <circle cx="450" cy="40" r="1.5" fill="white" opacity="0.4"/>
+  <circle cx="550" cy="70" r="2" fill="white" opacity="0.6" filter="url(#starGlow)"/>
+  <circle cx="120" cy="130" r="1.5" fill="white" opacity="0.5"/>
+  <circle cx="500" cy="150" r="1" fill="white" opacity="0.3"/>
+  <circle cx="580" cy="200" r="2" fill="white" opacity="0.5" filter="url(#starGlow)"/>
+  <circle cx="60" cy="250" r="1.5" fill="white" opacity="0.4"/>
+  <circle cx="520" cy="280" r="1" fill="white" opacity="0.3"/>
+  <circle cx="200" cy="290" r="2" fill="white" opacity="0.6" filter="url(#starGlow)"/>
+  <circle cx="400" cy="95" r="1.5" fill="#e9c46a" opacity="0.4"/>
+  <circle cx="160" cy="200" r="1" fill="#52b788" opacity="0.3"/>
+  <path d="M320 70l70 130H250z" fill="url(#ship)" filter="url(#glow)"/>
+  <path d="M320 70l50 100 20 30H250l20-30 50-100z" fill="white" opacity="0.1"/>
+  <circle cx="320" cy="148" r="32" fill="url(#window)" filter="url(#glow)"/>
+  <circle cx="320" cy="143" r="14" fill="white" opacity="0.15"/>
+  <circle cx="315" cy="140" r="6" fill="white" opacity="0.1"/>
+  <path d="M275 203l-30 48" stroke="#e76f51" stroke-width="4" stroke-linecap="round" opacity="0.5"/>
+  <path d="M365 203l30 48" stroke="#e76f51" stroke-width="4" stroke-linecap="round" opacity="0.5"/>
+  <path d="M275 200l-28 44" stroke="url(#flame)" stroke-width="16" stroke-linecap="round" filter="url(#glow)" opacity="0.9"/>
+  <path d="M365 200l28 44" stroke="url(#flame)" stroke-width="16" stroke-linecap="round" filter="url(#glow)" opacity="0.9"/>
+  <path d="M275 200l-22 35" stroke="#e9c46a" stroke-width="8" stroke-linecap="round" opacity="0.8"/>
+  <path d="M365 200l22 35" stroke="#e9c46a" stroke-width="8" stroke-linecap="round" opacity="0.8"/>
+  <ellipse cx="320" cy="300" rx="40" ry="6" fill="white" opacity="0.06"/>
+  <style>text { font-family: 'Inter', Arial, sans-serif'; }</style>
+  <text x="320" y="328" text-anchor="middle" font-size="24" font-weight="800" fill="white" letter-spacing="0.02em" opacity="0.9">Rescate Espacial</text>
+</svg>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Batalla de Cartas">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#d8f3dc"/>
+      <stop offset="100%" stop-color="#b7e4c7"/>
+    </linearGradient>
+    <linearGradient id="card1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#fff5f0"/>
+    </linearGradient>
+    <linearGradient id="card2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f0faf2"/>
+    </linearGradient>
+    <linearGradient id="strike" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e9c46a"/>
+      <stop offset="100%" stop-color="#f4a261"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-opacity="0.18"/>
+    </filter>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="640" height="360" fill="url(#bg)"/>
+  <circle cx="100" cy="60" r="20" fill="#e76f51" opacity="0.06"/>
+  <circle cx="540" cy="300" r="30" fill="#2d6a4f" opacity="0.05"/>
+  <rect x="170" y="60" width="130" height="195" rx="18" fill="url(#card1)" filter="url(#shadow)" transform="rotate(-10 235 158)"/>
+  <rect x="170" y="60" width="130" height="195" rx="18" fill="none" stroke="#e76f51" stroke-width="2" opacity="0.25" transform="rotate(-10 235 158)"/>
+  <rect x="340" y="60" width="130" height="195" rx="18" fill="url(#card2)" filter="url(#shadow)" transform="rotate(10 405 158)"/>
+  <rect x="340" y="60" width="130" height="195" rx="18" fill="none" stroke="#2d6a4f" stroke-width="2" opacity="0.25" transform="rotate(10 405 158)"/>
+  <circle cx="235" cy="148" r="32" fill="#e76f51" opacity="0.85" transform="rotate(-10 235 148)"/>
+  <circle cx="235" cy="142" r="14" fill="white" opacity="0.2"/>
+  <path d="M405 118l-24 48h48z" fill="#2d6a4f" opacity="0.85" transform="rotate(10 405 158)"/>
+  <path d="M405 123l-18 36h36z" fill="white" opacity="0.15"/>
+  <line x1="280" y1="190" x2="360" y2="130" stroke="url(#strike)" stroke-width="10" stroke-linecap="round" filter="url(#glow)"/>
+  <line x1="360" y1="190" x2="280" y2="130" stroke="url(#strike)" stroke-width="10" stroke-linecap="round" filter="url(#glow)"/>
+  <style>text { font-family: 'Inter', Arial, sans-serif'; }</style>
+  <text x="320" y="306" text-anchor="middle" font-size="24" font-weight="800" fill="#1b4332" letter-spacing="0.02em">Batalla de Cartas</text>
+</svg>
